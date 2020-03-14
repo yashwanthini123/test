@@ -15,4 +15,4 @@ steps:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
-- script: python -mhtmllib "filename.html"
+- script: python -mhtmllib "code.html"
